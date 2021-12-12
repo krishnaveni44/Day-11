@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+input[type=text]{border:none;border-bottom:solid 1px #000;width:100%;}
+textarea{border:none;border-bottom:solid 1px #000;height:30px;width:100%}
+.container{border:solid 2px #000;max-width:400px}
+h1{background:#f00;font-size:20px;text-align:center;}
+ul{margin:0;padding:0;}
+ul li{list-style:none;}
+ul li:nth-child(4),
+ul li:nth-child(5){font-weight:bold}
+.per50{display:inline-block;margin:0 2% 0 0;width:47%}
+.per33{display:inline-block;margin:0 2% 0 0;width:30%}
+</style>
+<body>
+<div class="container">
+    <h1>Yes! I want to subscribe to <i>Mag-O-Zine</i></h1>
+    <ul>
+        <li>
+            <div class="per50"><input type="text" name="fname">First Name</div>
+            <div class="per50"><input type="text" name="lname">Last Name</div>
+        </li>
+        <li><textarea></textarea>Address</li>
+        <li>
+            <div class="per33"><input type="text" name="city">City</div>
+            <div class="per33"><input type="text" name="state">State</div>
+            <div class="per33"><input type="text" name="zip">Zip</div>
+        </li>
+        <li>Subscribe for: <input type="checkbox" name="subscribe"> 1 year ($19.95) <input type="checkbox" name="subscribe"> 2 years ($35.00)</li>
+        <li>Send me more information about:<br />
+            <input type="checkbox" > Computer-Zine<br />
+            <input type="checkbox"> Fishing-Zine<br />
+            <input type="checkbox"> Cat-O-Zine        
+        </li>
+    </ul>
+</div>
+  </div>
+</body>
+</html>

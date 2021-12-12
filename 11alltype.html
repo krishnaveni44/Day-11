@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>  
+        <label>Enter first name</label><br>  
+        <input type="text" name="firstname"><br>  
+        <label>Enter last name</label><br>  
+        <input type="text" name="lastname"><br>  
+        <p><strong>Note:</strong>The default maximum cahracter lenght is 20.</p>  
+       
+        Pick your Favorite color: <br><br>  
+        <input type="color" name="upclick" value="#a52a2a"> Upclick<br><br>  
+        <input type="color" name="downclick" value="#f5f5dc"> Downclick  
+       
+        Select Start and End Date: <br><br>  
+        Start date:<input type="date" name="Startdate"><br><br>  
+        End date:<input type="date" name="Enddate"> <br><br>  
+   
+        <label>  
+            Select the meeting schedule: <br><br>  
+            Select date & time: <input type="datetime-local" name="meetingdate"> <br><br>  
+          </label>  
+         
+          <label><b>Enter your Email-address</b></label>  
+          <input type="email" name="email" required>  
+          <input type="submit">  
+           <p><strong>Note:</strong>User can also enter multiple email addresses separating by comma or whitespace as following: </p>  
+           <label><b>Enter multiple Email-addresses</b></label>
+           <input type="email" name="email"  multiple>  
+           <input type="submit"><br><br>
+                
+           <label>Enter your age: </label>  
+            <input type="number" name="num" min="50" max="80">  
+            <input type="submit"> <br><br> 
+
+            <label>Enter your website URL: </label>  
+            <input type="url" name="website" placeholder="http://example.com">  
+            <input type="submit" value="send data"><br><br> 
+
+            <label><b>Select your best week of year:</b></label><br>  
+            <input type="week" name="bestweek">  
+            <input type="submit" value="Send data">  
+
+            <label>Search here:</label>  
+            <input type="search" name="q">  
+            <input type="submit" value="search">  
+     
+    </form>  
+</body>
+</html>
